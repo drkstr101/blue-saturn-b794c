@@ -3,7 +3,7 @@ import * as React from 'react';
 import { getBaseLayoutComponent } from '../../../utils/base-layout';
 import { getComponent } from '../../components-registry';
 
-export default function PageLayout(props) {
+export default function ContactLayout(props) {
     const { page, site } = props;
     const BaseLayout = getBaseLayoutComponent(page.baseLayout, site.baseLayout);
     const sections = page.sections || [];
