@@ -29,6 +29,12 @@ contentModels:
     urlPath: '/blog'
     file: 'blog/index.md'
     newFilePath: 'blog/index.md'
+  ContactLayout:
+    isPage: true
+    singleInstance: true
+    urlPath: /contact
+    file: contact.md
+    newFilePath: contact.md
 modelsSource:
   type: files
   modelDirs:
